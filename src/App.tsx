@@ -67,6 +67,8 @@ function Form(props: FormProps) {
               <select name="breed" value={breed} onChange={(event) => setBreed(event.target.value)}>
                 <option value="shiba">Shiba</option>
                 <option value="akita">Akita</option>
+                <option value="chihuahua">Chihuahua</option>
+                <option value="pug">Pug</option>
               </select>
             </div>
           </div>
